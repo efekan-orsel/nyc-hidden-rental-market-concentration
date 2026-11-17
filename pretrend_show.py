@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your data folder
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 # ----------------------------------------------------------------------
 T, WIN = 10, 5
 p = lambda f: os.path.join(FOLDER, f)

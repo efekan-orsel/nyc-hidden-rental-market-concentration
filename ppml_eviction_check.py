@@ -23,7 +23,7 @@ import pyfixest as pf
 from linearmodels.panel import PanelOLS
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- your data folder
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 # ----------------------------------------------------------------------
 T, WIN = 10, 5                       # big = >=10 lots; event window t = -5..+5
 p = lambda f: os.path.join(FOLDER, f)

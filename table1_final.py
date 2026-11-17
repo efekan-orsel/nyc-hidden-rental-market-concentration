@@ -13,7 +13,7 @@ import os, re
 import pandas as pd
 import numpy as np
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your path
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 T = 10
 THIS_YEAR = 2026
 p = lambda f: os.path.join(FOLDER, f)

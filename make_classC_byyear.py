@@ -13,7 +13,7 @@ import os, re
 import pandas as pd
 from collections import Counter
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 RAW = os.path.join(FOLDER, "wvxf-dwi5_version_3357.csv")
 
 def bblnorm(s): return re.sub(r"\D", "", str(s).replace(".0", ""))

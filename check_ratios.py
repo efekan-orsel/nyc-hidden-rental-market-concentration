@@ -9,7 +9,7 @@ Ratio column = hidden-big / genuinely-small.
 import os, re
 import pandas as pd
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your path
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 T, K = 10, 4
 p = lambda f: os.path.join(FOLDER, f)
 def bblnorm(s): return re.sub(r"\D", "", str(s).replace(".0", ""))

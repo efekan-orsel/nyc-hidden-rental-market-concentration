@@ -23,7 +23,7 @@ counts to the exact lot would require the original normalization code.
 import re
 import numpy as np, pandas as pd
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your path
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 p = lambda f: __import__("os").path.join(FOLDER, f)
 T = 10
 

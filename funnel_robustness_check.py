@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 # ---- EDIT THIS to your folder ----
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 # ----------------------------------
 
 import os

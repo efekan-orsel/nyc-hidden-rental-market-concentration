@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 # once (restart the kernel first if figures still won't show), then run this.
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your data folder
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 # ----------------------------------------------------------------------
 T    = 10       # size threshold (>=10 buildings = big)
 SAVE = False    # False = just display; True = also save the PNG to FOLDER

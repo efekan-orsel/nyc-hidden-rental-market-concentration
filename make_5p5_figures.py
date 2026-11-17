@@ -26,7 +26,7 @@ matplotlib.use("Agg")                     # Agg always saves; we display the sav
 import matplotlib.pyplot as plt
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your data folder
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 SAVE   = True     # save PNGs to FOLDER too (set False to only display)
 # ----------------------------------------------------------------------
 T, WIN = 10, 5

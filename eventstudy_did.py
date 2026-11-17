@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 
 # ----------------------------------------------------------------------
 # EDIT THIS to your data folder:
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 # ----------------------------------------------------------------------
 T      = 10     # ownership size threshold (>=10 lots = "big")
 WIN    = 5      # event-study window: t = -WIN .. +WIN

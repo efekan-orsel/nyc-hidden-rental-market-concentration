@@ -13,7 +13,7 @@ import os, re
 import pandas as pd
 import numpy as np
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your path
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 p = lambda f: os.path.join(FOLDER, f)
 T = 10          # portfolio-size threshold
 THIS_YEAR = 2026

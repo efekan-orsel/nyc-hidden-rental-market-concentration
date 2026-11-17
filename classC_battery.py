@@ -12,7 +12,7 @@ import numpy as np, pandas as pd
 from linearmodels.panel import PanelOLS
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 # ----------------------------------------------------------------------
 T, WIN = 10, 5
 p = lambda f: os.path.join(FOLDER, f)

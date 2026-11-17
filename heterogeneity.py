@@ -9,7 +9,7 @@ ABSOLUTE gap (hidden-small, pp) is in the poorest/most-POC tercile vs the riches
 import os, re
 import numpy as np, pandas as pd
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 p = lambda f: os.path.join(FOLDER, f)
 def bblnorm(s): return re.sub(r"\D", "", str(s).replace(".0", ""))
 T, K = 10, 4

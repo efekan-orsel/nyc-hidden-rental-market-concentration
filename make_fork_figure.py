@@ -2,7 +2,7 @@ import os, re, warnings; warnings.filterwarnings("ignore")
 import pandas as pd, numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-FOLDER=r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"; T=10
+FOLDER=r"PATH/TO/DATA"; T=10
 p=lambda f:os.path.join(FOLDER,f)
 def bblnorm(s): return re.sub(r"\D","",str(s).replace(".0",""))
 df=pd.read_csv(p("rentals_owner.csv"),dtype=str,low_memory=False)

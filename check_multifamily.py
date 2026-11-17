@@ -5,7 +5,7 @@ Reads the Census 'row-labeled' download format.
 """
 import os, pandas as pd
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your path
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 FILE   = "ACSDT5Y2024.B25032-2026-09-06T164444.csv"          # <-- your B25032 file
 
 d = pd.read_csv(os.path.join(FOLDER, FILE), dtype=str)

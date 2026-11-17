@@ -18,7 +18,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- your data folder
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 FIGNUM = 3                                                    # eviction figure number
 # ----------------------------------------------------------------------
 T, WIN = 10, 5

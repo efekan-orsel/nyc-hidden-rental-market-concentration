@@ -11,7 +11,7 @@ TREND is robust even if any single year's level is fuzzy.
 import os, re
 import pandas as pd
 
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- edit to your path
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 p = lambda f: os.path.join(FOLDER, f)
 def bblnorm(s): return re.sub(r"\D", "", str(s).replace(".0", ""))
 

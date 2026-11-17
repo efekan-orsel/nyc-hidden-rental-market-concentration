@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # ----------------------------------------------------------------------
-FOLDER = r"C:\Users\efeka\OneDrive\Desktop\Columbia Thesis"   # <-- your data folder
+FOLDER = "PATH/TO/DATA"   # <-- set to your data folder
 FIG = {"eviction": 3, "emergency": 4, "hazard": 5}
 # ----------------------------------------------------------------------
 T, WIN = 10, 5
