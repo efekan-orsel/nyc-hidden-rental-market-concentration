@@ -17,7 +17,7 @@ The headline comparison is hidden-big vs genuinely-small, which holds apparent s
 ## Scripts
 
 ### Data preparation
-- **make_classC_byyear.py** — Streams the raw ~6GB HPD violations file (`wvxf-dwi5_version_3357.csv`) in 500k-row chunks and counts Class-C and Class-(B+C) violations per building-year, writing `hpd_classC_byyear.csv` and `hpd_BC_check_byyear.csv`.
+- **make_classC_byyear.py** — Streams the raw roughly 6 GB HPD violations file (`wvxf-dwi5_version_3357.csv`) in 500k-row chunks and counts Class-C and Class-(B+C) violations per building-year, writing `hpd_classC_byyear.csv` and `hpd_BC_check_byyear.csv`.
 - **funnel_robustness_check.py** — Rebuilds the sample-construction funnel from the raw MDR (`.xlsx`), the final sample, and the registration contacts, and prints a scoreboard of record/building/lot counts, class composition, leakage checks, and fingerprint-resolution rates.
 
 ### Descriptive tables and trends
@@ -40,7 +40,7 @@ The headline comparison is hidden-big vs genuinely-small, which holds apparent s
 
 ### Eviction: the causal result
 - **eviction_figure_ppml.py** — Builds the eviction event study and reports the three headline statistics: a binary DiD, a joint pre-trend Wald χ²(4) test, and a per-unit PPML rate (Poisson with units as exposure). Saves Figure 3.
-- **ppml_eviction_check.py** — Contrasts three eviction specifications: the baseline binary DiD (~+0.99pp), the "broken" per-unit OLS test (null), and the correct PPML count model (~+14.5%).
+- **ppml_eviction_check.py** — Contrasts three eviction specifications: the baseline binary DiD (about +0.99pp), the "broken" per-unit OLS test (null), and the correct PPML count model (about +14.5%).
 
 ### Robustness
 - **classC_battery.py** — Repeats the hidden-vs-small design on Class-C (immediately hazardous) violations only: a binary DiD, a joint pre-trend Wald test, and the behavioral fork in ln(1 + Class C).
